@@ -8,6 +8,7 @@
 int main(void)
 {
 	char sc;
+
 	for (sc = 'a'; sc <= 'z'; sc++)
 	putchar(sc);
 
