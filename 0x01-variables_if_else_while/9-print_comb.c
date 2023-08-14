@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - A c program that prints all possible combinations of single-digit numbers
+ * main - A c program that prints all possible combinations
  * Return: Always 0 (Success)
  */
 int main(void)
