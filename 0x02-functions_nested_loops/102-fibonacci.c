@@ -18,7 +18,7 @@ int main(void)
 	{
 	g += b;
 	b = g - b;
-	printf(", %lb", g);
+	printf(", %ld", g);
 	}
 	n++;
 	}
