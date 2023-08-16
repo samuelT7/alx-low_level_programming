@@ -16,4 +16,6 @@ int main(void)
 	b = g - b;
 	++n;
 	}
+	printf("%ld\n", sum);
+	return (0);
 }
