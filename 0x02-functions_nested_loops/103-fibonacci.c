@@ -5,17 +5,23 @@
  */
 int main(void)
 {
-	int n = 0;
-	long b = 1; g = 2; sum = g;
+	int n;
+	unsigned long int b, g, f, sum;
 
-	while (g + b < 4000000)
+	b = 1;
+	g = 2;
+	sum = 0;
+
+	for (n = 1; n <= 33; ++n)
 	{
-	g += b;
-	if (g % 2 == 0)
-	sum += g;
-	b = g - b;
-	++n;
+	if (b < 4000000 && (b % 2) == 0)
+	{
+	sum = sum + b;
 	}
-	printf("%ld\n", sum);
+	f = b + g;
+	b = g;
+	g = f;
+	}
+	printf("%lu\n", sum);
 	return (0);
 }
