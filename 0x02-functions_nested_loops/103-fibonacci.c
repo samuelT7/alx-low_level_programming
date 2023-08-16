@@ -6,7 +6,7 @@
 int main(void)
 {
 	int n = 0;
-	long b = 1; g = 2; sun = g;
+	long b = 1; g = 2; sum = g;
 
 	while (g + b < 4000000)
 	{
